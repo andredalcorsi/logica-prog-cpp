@@ -1,5 +1,5 @@
 # Lógica de Programação com C++
-Exercícios da disciplina "Algoritmos e Lógica de Programação" ministradas pelo professor Marcos Takeshi Mihara da Fatec de Mogi das Cruzes
+Exercícios da disciplina "Algoritmos e Lógica de Programação" ministrada pelo professor Marcos Takeshi Mihara da FATEC Mogi das Cruzes
 
 
 ## LISTA DE EXERCÍCIOS
