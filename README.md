@@ -42,7 +42,7 @@ Exercícios da disciplina "Algoritmos e Lógica de Programação" ministradas pe
 
 12. Efetuar o cálculo e a apresentação do valor de uma prestação em atraso, utilizando a fórmula
 
-PRESTAÇÃO <-- VALOR + (VALOR * (TAXA/100) * TEMPO)
+> PRESTAÇÃO <-- VALOR + (VALOR * (TAXA/100) * TEMPO)
 
 
 13. Elaborar um programa que efetue a apresentação do valor da conversão em real de um valor lido em dólar. O programa deve solicitar o valor da cotação do dólar e também a quantidade de dólares disponível com o usuário, para que seja apresentado o valor em moeda brasileira.
