@@ -42,11 +42,11 @@ Exercícios da disciplina "Algoritmos e Lógica de Programação" ministrada pel
 
 2. Solicitar 3 valores inteiros para o cálculo da equação de segundo grau
 
-> Delta = b² - 4 * a * c;
-> Se Delta < 0 -> não existem raízes reais;
-> Se Delta = 0 -> existe uma raiz real;
-> Se Delta > 0 -> existem duas raízes reais;
-> Raízes -> -b +/- sqrt(delta) / 2 * a;
+    * Delta = b² - 4 * a * c;
+    * Se Delta < 0 -> não existem raízes reais;
+    * Se Delta = 0 -> existe uma raiz real;
+    * Se Delta > 0 -> existem duas raízes reais;
+    * Raízes -> -b +/- sqrt(delta) / 2 * a;
 
 3. Solicitar dois valores inteiros, e mostrá-los na ordem crescente e decrescente.
 
@@ -72,23 +72,23 @@ Exercícios da disciplina "Algoritmos e Lógica de Programação" ministrada pel
 			Acima de 601			40%
 
 11. Escrever um algoritmo que lê um conjunto de 4 valores i, a, b, c, onde i é um valor inteiro e positivo e a, b, c, são quaisquer valores reais e os escreva. A seguir: Se i=1 escrever os três valores a, b, c em ordem crescente. 
-* Se i=2 escrever os três valores a, b, c em ordem decrescente. 
-* Se i=3 escrever os três valores a, b, c de forma que o maior entre a, b, c fique dentre os dois. 
+    * Se i=2 escrever os três valores a, b, c em ordem decrescente. 
+    * Se i=3 escrever os três valores a, b, c de forma que o maior entre a, b, c fique dentre os dois. 
 
 12. Um vendedor necessita de um algoritmo que calcule o preço total devido por um cliente. O algoritmo deve receber o código de um produto e a quantidade comprada e calcular o preço total, usando a tabela abaixo: 
 
 Código do produto Preço unitário 
-* R$ 32,00 
-* R$ 45,00 
-* R$ 37,00 
-* R$ 33,00 
+    * R$ 32,00 
+    * R$ 45,00 
+    * R$ 37,00 
+    * R$ 33,00 
  		
 13. Escrever um algoritmo que lê um valor em Reais (R$) e calcule qual o menor número possível de notas de 100, 50, 10, 5 e 1 em que o valor lido pode ser decomposto. Escrever o valor lido e a relação de notas necessárias. 
 
 14. Escrever um algoritmo que lê um conjunto de 4 valores i, a, b, c, onde i é um valor inteiro e positivo e a, b, c, são quaisquer valores reais e os escreva. A seguir: 
-* Se i=1 escrever os três valores a, b, c em ordem crescente. 
-* Se i=2 escrever os três valores a, b, c em ordem decrescente. 
-* Se i=3 escrever os três valores a, b, c de forma que o maior entre a, b, c fique dentre os dois. 
+    * Se i=1 escrever os três valores a, b, c em ordem crescente. 
+    * Se i=2 escrever os três valores a, b, c em ordem decrescente. 
+    * Se i=3 escrever os três valores a, b, c de forma que o maior entre a, b, c fique dentre os dois. 
 
 15. As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem compradas pelo menos 12. Escreva um programa que leia o número de maçãs compradas, calcule e escreva o custo total da compra. 
 
