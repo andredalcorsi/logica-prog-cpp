@@ -15,7 +15,7 @@ Código do produto | Preço unitário
 
 
 #include <iostream>
-#include <cmath> 
+#include <cmath>
 
 using namespace std; 
 
@@ -24,7 +24,7 @@ int main()
 {
     
     int codProd = 0, quantidade = 0;
-    float precoTotal = 0;
+    float totalPrice = 0;
      
    
    cout << "Por favor, digite o código do produto: "; 
@@ -35,23 +35,23 @@ int main()
    
    if (codProd == 1) {
    
-        precoTotal = quantidade * 32.00;
+        totalPrice = quantidade * 32.00;
    }
    
    else if (codProd == 2) {
    
-        precoTotal = quantidade * 45.00;
+        totalPrice = quantidade * 45.00;
        
    }
    
    else if (codProd == 3) {
    
-        precoTotal = quantidade * 37.00;
+        totalPrice = quantidade * 37.00;
    }
    
    else if (codProd == 4) {
    
-        precoTotal = quantidade * 33.00;
+        totalPrice = quantidade * 33.00;
    }
    
    else {
@@ -59,6 +59,6 @@ int main()
        return 1;
    }
     
-    cout << "Valor total é de R$: " << precoTotal << endl;
+    cout << "Valor total é de R$: " << totalPrice << endl;
     return 0;
 }
