@@ -20,11 +20,9 @@ int main () {
 
     float n1 = 0, n2 = 0, n3 = 0, mp = 0, geral = 0, contador = 0, acumulador = 0;
 
-    
-
     cout << "Cálculo de Média de Alunos" << endl;
 
-    while (contador < 3) {
+    while (contador < 50) {
 
     cout << "Por favor, digite a primeira nota: ";
     cin >> n1; 
