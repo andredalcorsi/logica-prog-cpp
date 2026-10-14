@@ -1,0 +1,29 @@
+/* 
+
+03. Crie um vetor A com 10 elementos:  
+    - Inserir os elementos de 1 a 10 no vetor; 
+    - Criar um outro vetor B que conterá o elemento do vetor A multiplicado por 2;
+    - Mostrar os dois vetores; 
+
+*/
+
+#include <iostream>
+
+using namespace std; 
+
+int main()
+
+{
+    
+    int contador = 0, mult = 0, A[10], B[10]; 
+
+    for (contador = 0; contador < 10; contador++) {
+        A[contador] = contador + 1; 
+    }
+    cout << "Elementos do Vetor: ";
+    for (contador = 0; contador < 10; contador++) {
+        cout << A[contador]; 
+    }
+    
+    
+}

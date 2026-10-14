@@ -1,0 +1,26 @@
+/* 
+Criar um vetor com 10 elementos
+ - Inserir os elementos de 1 a 10 no vetor;
+ - Após a inserção, somente após a inserção mostrar o vetor;
+ 
+*/
+
+#include <iostream>
+
+using namespace std; 
+
+int main()
+{
+    
+    int contador = 0, elementos[10];
+    
+    for (contador = 0; contador <= 10; contador = contador +1) {
+        cin >> elementos[contador];        
+    }
+    
+
+    cout << elementos[contador];
+    
+
+    return 0;
+}

@@ -1,0 +1,33 @@
+/* 
+02 - Criar um vetor de 20 elementos. 
+
+ - Inserir somente os pares começando de 10; 
+ - Após a inserção dos elementos, mostrar o vetor e a somatória dos elementos. 
+ 
+*/
+
+#include <iostream>
+
+using namespace std; 
+
+int main()
+
+{    
+    int contador = 0, soma = 0, inicial = 10, elementos[20]; 
+
+    for (contador = 0; contador < 20; contador++) { 
+        elementos[contador] = inicial;
+        soma += inicial;
+        inicial += 2; 
+    }
+    cout << "Elementos do Vetor: ";
+    for (contador = 0; contador < 20; contador ++) {
+        cout << elementos[contador] << endl;
+    }
+    
+    cout << "O valor da soma é: " << soma; 
+    
+    cout << endl;
+
+    return 0;
+}
